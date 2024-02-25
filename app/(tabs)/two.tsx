@@ -2,6 +2,10 @@ import { Text, View } from 'react-native';
 
 import EditScreenInfo from '../../components/edit-screen-info';
 
+const PADDING = 32;
+const x = PADDING;
+const y = 75;
+
 export default function TabTwoScreen() {
   return (
     <View className={styles.container}>
